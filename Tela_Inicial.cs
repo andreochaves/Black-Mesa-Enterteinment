@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lets_Musics
 {
-    public partial class Form1 : Form
+    public partial class Inicial : Form
     {
-        public Form1()
+        public Inicial()
         {
             InitializeComponent();
         }
