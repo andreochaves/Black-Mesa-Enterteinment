@@ -58,6 +58,12 @@
     <Compile Include="Login_Tela.Designer.cs">
       <DependentUpon>Login_Tela.cs</DependentUpon>
     </Compile>
+    <Compile Include="Playlist_Tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playlist_Tela.Designer.cs">
+      <DependentUpon>Playlist_Tela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Properties\Tela_Inicial.cs">
