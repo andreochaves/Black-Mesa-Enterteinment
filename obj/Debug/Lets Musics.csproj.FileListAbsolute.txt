@@ -1,0 +1,6 @@
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csprojAssemblyReference.cache
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Cadastro_Tela.resources
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Login_Tela.resources
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Properties.Resources.resources
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.GenerateResource.cache
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CoreCompileInputs.cache
