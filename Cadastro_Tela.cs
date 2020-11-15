@@ -21,5 +21,12 @@ namespace Lets_Musics
         {
 
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Login_Tela lTela = new Login_Tela();
+            this.Hide();
+            lTela.ShowDialog();
+        }
     }
 }

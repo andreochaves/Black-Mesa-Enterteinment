@@ -13,7 +13,7 @@ namespace Lets_Musics
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicial());
+            Application.Run(new Cadastro_Tela());
         }
     }
 }

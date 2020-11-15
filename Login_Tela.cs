@@ -21,5 +21,12 @@ namespace Lets_Musics
         {
 
         }
+
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            Cadastro_Tela cTela = new Cadastro_Tela();
+            this.Hide();
+            cTela.ShowDialog();
+        }
     }
 }

@@ -67,9 +67,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Properties\Tela_Inicial.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <EmbeddedResource Include="Cadastro_Tela.resx">
       <DependentUpon>Cadastro_Tela.cs</DependentUpon>
     </EmbeddedResource>

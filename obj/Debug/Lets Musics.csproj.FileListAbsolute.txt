@@ -4,3 +4,9 @@ C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Let
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Properties.Resources.resources
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.GenerateResource.cache
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CoreCompileInputs.cache
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Playlist_Tela.resources
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.exe.config
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.exe
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.pdb
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.exe
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.pdb
