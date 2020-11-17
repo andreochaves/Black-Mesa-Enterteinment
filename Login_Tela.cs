@@ -41,9 +41,9 @@ namespace Lets_Musics
             }
             if(x)
             {
-            	Cadastro_Tela cTela = new Cadastro_Tela();
+            	Playlist_Tela pTela = new Playlist_Tela();
                 this.Hide();
-                cTela.Show();
+                pTela.Show();
             }
             else
             {

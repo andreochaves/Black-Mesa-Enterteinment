@@ -22,3 +22,8 @@ C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.GenerateResource.cache
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.CoreCompileInputs.cache
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.exe
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.pdb
+C:\IDEs\VS\Lets Musics\bin\Debug\Interop.WMPLib.dll
+C:\IDEs\VS\Lets Musics\bin\Debug\AxInterop.WMPLib.dll
+C:\IDEs\VS\Lets Musics\obj\Debug\Interop.WMPLib.dll
+C:\IDEs\VS\Lets Musics\obj\Debug\AxInterop.WMPLib.dll
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.ResolveComReference.cache
