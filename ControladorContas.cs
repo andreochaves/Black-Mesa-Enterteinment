@@ -34,10 +34,10 @@ namespace Lets_Musics
         {
         	string contas_File = File.ReadAllText("../../Contas.txt");
             string[] load_contas = contas_File.Split('}');
-            
         	
         	foreach (string k in load_contas)
             {
+                
                 int count = 0;
                 string[] conta_info = k.Split(',');
                 foreach (string j in conta_info)

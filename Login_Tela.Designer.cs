@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnReg = new System.Windows.Forms.Button();
+            this.testBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // txtSenha
@@ -93,11 +94,20 @@
             this.btnReg.UseVisualStyleBackColor = true;
             this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
             // 
+            // testBox
+            // 
+            this.testBox.Location = new System.Drawing.Point(75, 163);
+            this.testBox.Name = "testBox";
+            this.testBox.Size = new System.Drawing.Size(89, 92);
+            this.testBox.TabIndex = 11;
+            this.testBox.Text = "";
+            // 
             // Login_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.testBox);
             this.Controls.Add(this.btnReg);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtSenha);
@@ -119,5 +129,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnReg;
+        private System.Windows.Forms.RichTextBox testBox;
     }
 }

@@ -38,8 +38,6 @@ namespace Lets_Musics
             nome = txtNome.Text;
             senha = txtSenha.Text;
             email = txtEmail.Text;
-<<<<<<< HEAD
-            usuario = txtUsuario.Text;
             bool x = false;
             foreach(Conta c in controlador.GetContas())
             {
@@ -48,33 +46,19 @@ namespace Lets_Musics
             		x = true;
             	}
             }
-            if(!x)
+            if (!x)
             {
-            	controlador.GetContas().Add(new ContaNormal(nome,senha,email));
-	            Conta ct = controlador.GetContas().Last();
-	            contas_File += "}"+'\n'+ "Codigo:"+ct.Codigo+'\n'+ "TipoConta:"+ct.Tipo_Conta+'\n'+ "Nome:"+ct.Nome+'\n'+ "Senha:"+ct.Senha+'\n'+ "Email:"+ct.Email+'\n'+ "Possui_Banda:"+ct.PossuiBanda+'\n';
-	            File.WriteAllText("../../Contas.txt", contas_File);
-	            MessageBox.Show("Cadastrado");
-	            this.Close();
-	            Program.tela_login.Show();
+                controlador.GetContas().Add(new ContaNormal(nome, senha, email));
+                Conta ct = controlador.GetContas().Last();
+                contas_File += "}" + '\n' + "Codigo:" + ct.Codigo + ",\n" + "TipoConta:" + ct.Tipo_Conta + ",\n" + "Nome:" + ct.Nome + ",\n" + "Senha:" + ct.Senha + ",\n" + "Email:" + ct.Email + ",\n" + "Possui_Banda:" + ct.PossuiBanda + '\n';
+                File.WriteAllText("../../Contas.txt", contas_File);
+                MessageBox.Show("Cadastrado");
+                this.Close();
+                Program.tela_login.Show();
             }
             else
             {
-            	MessageBox.Show("Email já Cadastrado.");
-=======
-            foreach (Conta c in controlador.GetContas())
-            {
-                if (email == c.Email)
-                {
-                    MessageBox.Show("Email já Cadastrado!");
-                }
-                else
-                {
-                    contas_File += "\nCodigo:2,\nTipoConta: 0,\nNome:" + nome + ",\nSenha:" + senha + ",\nEmail:" + email + ",\nPossui_Banda: false\n}";
-                    File.WriteAllText("../../Contas.txt", contas_File);
-                    MessageBox.Show("Cadastrado!");
-                }
->>>>>>> 7e2e154d5bc67e80c3f0510c7f3a1d8a0cf889da
+                MessageBox.Show("Email já Cadastrado.");
             }
         }
     }
