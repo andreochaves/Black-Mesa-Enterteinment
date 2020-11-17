@@ -18,6 +18,7 @@ Nome:Thamyres,
 Senha:213,
 Email:Thamyres@ucl.br,
 Possui_Banda:true
+<<<<<<< HEAD
 }
 Codigo:4
 TipoConta:0
@@ -53,3 +54,7 @@ Nome:Kenway
 Senha:blackflag
 Email:edward@ucl.br
 Possui_Banda:False
+=======
+}
+
+>>>>>>> 7e2e154d5bc67e80c3f0510c7f3a1d8a0cf889da

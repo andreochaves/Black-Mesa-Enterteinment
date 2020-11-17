@@ -15,7 +15,7 @@ namespace Lets_Musics
     {
         string contas_File = File.ReadAllText("../../Contas.txt");
         ControladorContas controlador = new ControladorContas();
-        string nome, senha, email, usuario;
+        string nome, senha, email;
 
         public Cadastro_Tela()
         {
@@ -38,6 +38,7 @@ namespace Lets_Musics
             nome = txtNome.Text;
             senha = txtSenha.Text;
             email = txtEmail.Text;
+<<<<<<< HEAD
             usuario = txtUsuario.Text;
             bool x = false;
             foreach(Conta c in controlador.GetContas())
@@ -60,6 +61,20 @@ namespace Lets_Musics
             else
             {
             	MessageBox.Show("Email já Cadastrado.");
+=======
+            foreach (Conta c in controlador.GetContas())
+            {
+                if (email == c.Email)
+                {
+                    MessageBox.Show("Email já Cadastrado!");
+                }
+                else
+                {
+                    contas_File += "\nCodigo:2,\nTipoConta: 0,\nNome:" + nome + ",\nSenha:" + senha + ",\nEmail:" + email + ",\nPossui_Banda: false\n}";
+                    File.WriteAllText("../../Contas.txt", contas_File);
+                    MessageBox.Show("Cadastrado!");
+                }
+>>>>>>> 7e2e154d5bc67e80c3f0510c7f3a1d8a0cf889da
             }
         }
     }
