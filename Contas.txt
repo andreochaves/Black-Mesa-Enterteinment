@@ -18,8 +18,5 @@ Nome:Thamyres,
 Senha:213,
 Email:Thamyres@ucl.br,
 Possui_Banda:true
+}
 
-}
-}
-}
-andre123andre@ucl.brchaves}

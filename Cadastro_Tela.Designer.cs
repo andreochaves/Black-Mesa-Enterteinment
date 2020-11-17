@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.btnCadastrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -50,24 +48,6 @@
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(293, 150);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Usuario";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUsuario.Location = new System.Drawing.Point(387, 150);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(116, 20);
-            this.txtUsuario.TabIndex = 2;
             // 
             // txtSenha
             // 
@@ -109,7 +89,7 @@
             // txtNome
             // 
             this.txtNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtNome.Location = new System.Drawing.Point(387, 117);
+            this.txtNome.Location = new System.Drawing.Point(387, 150);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(116, 20);
             this.txtNome.TabIndex = 8;
@@ -118,7 +98,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(296, 117);
+            this.label4.Location = new System.Drawing.Point(293, 150);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 7;
@@ -147,8 +127,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCadastrar);
             this.Name = "Cadastro_Tela";
             this.Text = "Cadastro_Tela";
@@ -161,8 +139,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEmail;
