@@ -17,6 +17,7 @@ namespace Lets_Musics
         public bool PossuiBanda { get; set; }
         public int Tipo_Conta { get; set; }
 
+        public string musicas_Path; //c:\
         public void Criar_Playlist(string nome)
         {
 

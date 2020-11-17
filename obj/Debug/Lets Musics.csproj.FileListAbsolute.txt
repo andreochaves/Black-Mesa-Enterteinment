@@ -27,3 +27,9 @@ C:\IDEs\VS\Lets Musics\bin\Debug\AxInterop.WMPLib.dll
 C:\IDEs\VS\Lets Musics\obj\Debug\Interop.WMPLib.dll
 C:\IDEs\VS\Lets Musics\obj\Debug\AxInterop.WMPLib.dll
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.ResolveComReference.cache
+C:\IDEs\VS\Lets Musics\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\IDEs\VS\Lets Musics\bin\Debug\Id3Lib.dll
+C:\IDEs\VS\Lets Musics\bin\Debug\Mp3Lib.dll
+C:\IDEs\VS\Lets Musics\bin\Debug\Id3Lib.pdb
+C:\IDEs\VS\Lets Musics\bin\Debug\Mp3Lib.pdb
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.CopyComplete

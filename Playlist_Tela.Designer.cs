@@ -175,12 +175,11 @@
             // mPlayer
             // 
             this.mPlayer.Enabled = true;
-            this.mPlayer.Location = new System.Drawing.Point(12, 281);
+            this.mPlayer.Location = new System.Drawing.Point(12, 317);
             this.mPlayer.Name = "mPlayer";
             this.mPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mPlayer.OcxState")));
-            this.mPlayer.Size = new System.Drawing.Size(10, 46);
+            this.mPlayer.Size = new System.Drawing.Size(776, 47);
             this.mPlayer.TabIndex = 16;
-            this.mPlayer.Visible = false;
             // 
             // Playlist_Tela
             // 
