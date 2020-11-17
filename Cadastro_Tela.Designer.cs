@@ -38,7 +38,6 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.TestTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // btnCadastrar
@@ -136,20 +135,11 @@
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // TestTextBox
-            // 
-            this.TestTextBox.Location = new System.Drawing.Point(53, 117);
-            this.TestTextBox.Name = "TestTextBox";
-            this.TestTextBox.Size = new System.Drawing.Size(100, 96);
-            this.TestTextBox.TabIndex = 10;
-            this.TestTextBox.Text = "";
-            // 
             // Cadastro_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.TestTextBox);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label4);
@@ -180,6 +170,5 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.RichTextBox TestTextBox;
     }
 }

@@ -13,10 +13,15 @@ namespace Lets_Musics
 {
     public partial class Cadastro_Tela : Form
     {
-        
+        string contas_File = File.ReadAllText("../../Contas.txt");
+        ControladorContas controlador = new ControladorContas();
+        string nome, senha, email, usuario;
+
         public Cadastro_Tela()
         {
             InitializeComponent();
+
+           
         }
 
         private void Cadastro_Tela_Load(object sender, EventArgs e)
@@ -32,7 +37,14 @@ namespace Lets_Musics
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+            nome = txtNome.Text;
+            senha = txtSenha.Text;
+            email = txtEmail.Text;
+            usuario = txtUsuario.Text;
 
+            contas_File += "\n" + nome + senha + email+usuario+"}";
+            File.WriteAllText("../../Contas.txt", contas_File);
+            MessageBox.Show("Cadastrado");
         }
     }
 }
