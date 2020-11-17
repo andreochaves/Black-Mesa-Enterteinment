@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace Lets_Musics
 {
     public partial class Cadastro_Tela : Form
     {
+        
         public Cadastro_Tela()
         {
             InitializeComponent();
@@ -24,9 +26,13 @@ namespace Lets_Musics
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            Login_Tela lTela = new Login_Tela();
-            this.Hide();
-            lTela.ShowDialog();
+            this.Close();
+            Program.tela_login.Show();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

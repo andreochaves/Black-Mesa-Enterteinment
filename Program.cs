@@ -5,15 +5,13 @@ namespace Lets_Musics
 {
     static class Program
     {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
+        public static Login_Tela tela_login;
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cadastro_Tela());
+            Application.Run(tela_login = new Login_Tela());
         }
     }
 }

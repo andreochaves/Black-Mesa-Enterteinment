@@ -53,6 +53,10 @@
     <Compile Include="Cadastro_Tela.Designer.cs">
       <DependentUpon>Cadastro_Tela.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conta.cs" />
+    <Compile Include="ContaNormal.cs" />
+    <Compile Include="ContaPremium.cs" />
+    <Compile Include="ControladorContas.cs" />
     <Compile Include="Login_Tela.cs">
       <SubType>Form</SubType>
     </Compile>
