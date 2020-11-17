@@ -1,9 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+# Visual Studio 2012
+# SharpDevelop 5.1
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lets Musics", "Lets Musics.csproj", "{04B6CA12-E453-4D0B-B974-AB4FEB45FDBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp", "..\temp\temp.csproj", "{B5625DC4-5210-4659-81EF-7A8E85EC43E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04B6CA12-E453-4D0B-B974-AB4FEB45FDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04B6CA12-E453-4D0B-B974-AB4FEB45FDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04B6CA12-E453-4D0B-B974-AB4FEB45FDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04B6CA12-E453-4D0B-B974-AB4FEB45FDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5625DC4-5210-4659-81EF-7A8E85EC43E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5625DC4-5210-4659-81EF-7A8E85EC43E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5625DC4-5210-4659-81EF-7A8E85EC43E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5625DC4-5210-4659-81EF-7A8E85EC43E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,13 +8,13 @@ namespace Lets_Musics
 {
     class ContaNormal : Conta
     {
-        public ContaNormal(string nome, string senha, string email, bool banda)
+        public ContaNormal(string nome, string senha, string email)
         {
             this.Codigo = ++Codigo_Geral;
             this.Nome = nome;
             this.Senha = senha;
             this.Email = email;
-            this.PossuiBanda = banda;
+            this.PossuiBanda = false;
             this.Tipo_Conta = 0;
         }
         public void Mudar_Plano()

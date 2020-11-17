@@ -20,8 +20,6 @@ namespace Lets_Musics
         public Cadastro_Tela()
         {
             InitializeComponent();
-
-           
         }
 
         private void Cadastro_Tela_Load(object sender, EventArgs e)
@@ -41,10 +39,28 @@ namespace Lets_Musics
             senha = txtSenha.Text;
             email = txtEmail.Text;
             usuario = txtUsuario.Text;
-
-            contas_File += "\n" + nome + senha + email+usuario+"}";
-            File.WriteAllText("../../Contas.txt", contas_File);
-            MessageBox.Show("Cadastrado");
+            bool x = false;
+            foreach(Conta c in controlador.GetContas())
+            {
+            	if(c.Email == email)
+            	{
+            		x = true;
+            	}
+            }
+            if(!x)
+            {
+            	controlador.GetContas().Add(new ContaNormal(nome,senha,email));
+	            Conta ct = controlador.GetContas().Last();
+	            contas_File += "}"+'\n'+ "Codigo:"+ct.Codigo+'\n'+ "TipoConta:"+ct.Tipo_Conta+'\n'+ "Nome:"+ct.Nome+'\n'+ "Senha:"+ct.Senha+'\n'+ "Email:"+ct.Email+'\n'+ "Possui_Banda:"+ct.PossuiBanda+'\n';
+	            File.WriteAllText("../../Contas.txt", contas_File);
+	            MessageBox.Show("Cadastrado");
+	            this.Close();
+	            Program.tela_login.Show();
+            }
+            else
+            {
+            	MessageBox.Show("Email já Cadastrado.");
+            }
         }
     }
 }

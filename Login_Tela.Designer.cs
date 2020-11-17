@@ -106,7 +106,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Login_Tela";
             this.Text = "Login_Tela";
-            this.Load += new System.EventHandler(this.Login_Tela_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
