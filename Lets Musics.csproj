@@ -73,6 +73,7 @@
       <DependentUpon>Login_Tela.cs</DependentUpon>
     </Compile>
     <Compile Include="Musica.cs" />
+    <Compile Include="Playlist.cs" />
     <Compile Include="Playlist_Tela.cs">
       <SubType>Form</SubType>
     </Compile>

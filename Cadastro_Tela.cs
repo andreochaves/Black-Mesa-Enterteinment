@@ -24,12 +24,18 @@ namespace Lets_Musics
 
         private void Cadastro_Tela_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void Cadastro_Tela_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           Program.tela_login.Close();
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             this.Close();
+            Program.tela_login = new Login_Tela();
             Program.tela_login.Show();
         }
 

@@ -33,3 +33,26 @@ C:\IDEs\VS\Lets Musics\bin\Debug\Mp3Lib.dll
 C:\IDEs\VS\Lets Musics\bin\Debug\Id3Lib.pdb
 C:\IDEs\VS\Lets Musics\bin\Debug\Mp3Lib.pdb
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets Musics.csproj.CopyComplete
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.exe.config
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.exe
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Lets Musics.pdb
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Id3Lib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Mp3Lib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Id3Lib.pdb
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Mp3Lib.pdb
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\Interop.WMPLib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csprojAssemblyReference.cache
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Interop.WMPLib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.ResolveComReference.cache
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Cadastro_Tela.resources
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Login_Tela.resources
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Playlist_Tela.resources
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Properties.Resources.resources
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.GenerateResource.cache
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CoreCompileInputs.cache
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CopyComplete
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.exe
+C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.pdb

@@ -39,11 +39,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.CheckBoxMusica = new System.Windows.Forms.CheckedListBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mPlayer = new AxWMPLib.AxWindowsMediaPlayer();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.mPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,14 +138,6 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "NomePlaylist";
             // 
-            // CheckBoxMusica
-            // 
-            this.CheckBoxMusica.FormattingEnabled = true;
-            this.CheckBoxMusica.Location = new System.Drawing.Point(151, 222);
-            this.CheckBoxMusica.Name = "CheckBoxMusica";
-            this.CheckBoxMusica.Size = new System.Drawing.Size(480, 19);
-            this.CheckBoxMusica.TabIndex = 12;
-            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(450, 121);
@@ -175,21 +167,34 @@
             // mPlayer
             // 
             this.mPlayer.Enabled = true;
-            this.mPlayer.Location = new System.Drawing.Point(12, 317);
+            this.mPlayer.Location = new System.Drawing.Point(12, 348);
             this.mPlayer.Name = "mPlayer";
             this.mPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mPlayer.OcxState")));
             this.mPlayer.Size = new System.Drawing.Size(776, 47);
             this.mPlayer.TabIndex = 16;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "B ",
+            "C",
+            "D"});
+            this.listBox1.Location = new System.Drawing.Point(153, 248);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(478, 69);
+            this.listBox1.TabIndex = 18;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             // 
             // Playlist_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.mPlayer);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.CheckBoxMusica);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
@@ -222,10 +227,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckedListBox CheckBoxMusica;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private AxWMPLib.AxWindowsMediaPlayer mPlayer;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
