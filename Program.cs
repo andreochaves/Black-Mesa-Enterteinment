@@ -12,9 +12,6 @@ namespace Lets_Musics
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(tela_login = new Login_Tela());
-            tela_login = new Login_Tela();
-            tela_login.Show();
-
         }
     }
 }

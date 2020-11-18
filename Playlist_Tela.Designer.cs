@@ -209,6 +209,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Playlist_Tela";
             this.Text = "Playlist";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Playlist_Tela_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.mPlayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

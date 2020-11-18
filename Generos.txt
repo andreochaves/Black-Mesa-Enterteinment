@@ -1,0 +1,89 @@
+Blues,
+Blues britânico;
+Blues de doze compassos;
+Blues elétrico;
+Chicago blues;
+Country blues;
+Delta blues;
+Detroit blues;
+Jazz blues;
+Jump blues;
+Memphis blues;
+New Orleans blues;
+Piano blues;
+Piedmont blues;
+Punk blues;
+Skiffle;
+Soul blues;
+Spiritual;
+St. Louis blues;
+Swamp blues;
+Texas blues;
+}
+Rock,
+Rock alternativo‎;
+Blues-rock‎;
+Rock cristão‎;
+Death rock‎;
+Electro rock‎;
+Folk rock;
+Funk rock‎;
+Garage rock‎;
+Glam rock‎;
+Hard rock‎;
+Heavy metal;
+Invasão Britânica‎;
+Math rock‎;
+Pop rock‎;
+Post rock‎;
+Power pop‎;
+Rock progressivo‎;
+Protopunk‎;
+Rock psicodélico;
+Punk rock;
+Rap rock‎;
+Rock and roll;
+Rock em espanhol;
+Rock experimental‎;
+Rock instrumental‎;
+Rock sinfônico‎;
+Rockabilly;
+Samba-rock‎;
+Sludge metal‎;
+Space rock‎;
+Stoner rock;
+Surf rock‎;
+Synthpop‎;
+Trip rock‎;
+}
+Pop,
+Dance-pop;
+Electropop‎;
+Girl bands‎;
+Glam metal;
+J-pop‎;
+K-pop‎;
+Mandopop‎;
+New wave;
+Pop latino‎;
+Pop punk;
+Pop-rap;
+Pop rock;
+Surf rock;
+trot;
+}
+Hip-Hop,
+Hip hop cristão‎;
+Funk carioca;
+Crunk
+Gangsta rap;
+Hip hop alternativo‎;
+Hip hop positivo;
+Horrorcore;
+Pop-rap;
+Rap metal;
+Rap rock;
+Rapcore;
+Southen hip hop;
+Trip hop;
+}

@@ -39,5 +39,15 @@ namespace Lets_Musics
         {
 
         }
+
+        private void Playlist_Tela_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+
+            if (this.DialogResult == DialogResult.Cancel)
+            {
+                Program.tela_login.Close();
+            }
+        }
     }
 }
