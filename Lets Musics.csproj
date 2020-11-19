@@ -66,6 +66,14 @@
     <Compile Include="ContaNormal.cs" />
     <Compile Include="ContaPremium.cs" />
     <Compile Include="ControladorContas.cs" />
+    <Compile Include="ControladorGeneros.cs" />
+    <Compile Include="Dashboard_Tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard_Tela.Designer.cs">
+      <DependentUpon>Dashboard_Tela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Genero.cs" />
     <Compile Include="Login_Tela.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +92,9 @@
     <Compile Include="AssemblyInfo.cs" />
     <EmbeddedResource Include="Cadastro_Tela.resx">
       <DependentUpon>Cadastro_Tela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard_Tela.resx">
+      <DependentUpon>Dashboard_Tela.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Tela.resx">
       <DependentUpon>Login_Tela.cs</DependentUpon>

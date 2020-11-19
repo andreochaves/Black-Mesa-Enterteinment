@@ -29,7 +29,12 @@ namespace Lets_Musics
 
         private void Cadastro_Tela_FormClosing(object sender, FormClosingEventArgs e)
         {
-           Program.tela_login.Close();
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+
+            if (this.DialogResult == DialogResult.Cancel)
+            {
+                 Program.tela_login.Close();
+            }
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

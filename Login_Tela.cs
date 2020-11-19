@@ -14,36 +14,42 @@ namespace Lets_Musics
 {
     public partial class Login_Tela : Form
     {
-        ControladorContas controlador = new ControladorContas();
-        
+        ControladorContas cc = new ControladorContas();
+        ControladorGeneros cg = new ControladorGeneros();
+        Conta at;
         public Login_Tela()
         {
             InitializeComponent();
+            cg.Atualizar();
         }
 
         private void btnReg_Click(object sender, EventArgs e)
         {
-        	controlador.AtualizarContas();
+        	cc.AtualizarContas();
             Cadastro_Tela cTela = new Cadastro_Tela();
             this.Hide();
             cTela.ShowDialog();
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-        	controlador.AtualizarContas();
+        	cc.AtualizarContas();
+            
         	bool x = false;
-            foreach(Conta c in controlador.GetContas())
+            foreach(Conta c in cc.GetContas())
             {
                 if (c.Email == txtEmail.Text && c.Senha == txtSenha.Text)
                 {
                 	x = true;
+                    cc.setAtual(c);
                 }
             }
             if(x)
             {
-            	Playlist_Tela pTela = new Playlist_Tela();
+                Dashboard_Tela dTela = new Dashboard_Tela();
                 this.Hide();
-                pTela.Show();
+                this.txtEmail.Text = "";
+                this.txtSenha.Text = "";
+                dTela.Show();
             }
             else
             {

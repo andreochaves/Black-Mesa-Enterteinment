@@ -30,11 +30,6 @@ namespace Lets_Musics
             Player.controls.play();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            listBox1.Items.Add("jota");
-        }
-
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 

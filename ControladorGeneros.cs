@@ -19,7 +19,12 @@ namespace Lets_Musics
             generos = new List<Genero>();
             subgeneros = new List<string>();
         }
-        public void CarregarGeneros()
+        public void Atualizar()
+        {
+            generos.Clear();
+            CarregarGeneros();
+        }
+        void CarregarGeneros()
         {
             string contas_File = File.ReadAllText("../../Generos.txt");
             string[] load_contas = contas_File.Split('}');

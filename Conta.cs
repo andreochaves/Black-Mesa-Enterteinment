@@ -16,6 +16,7 @@ namespace Lets_Musics
         public string Email { get; set; }
         public bool PossuiBanda { get; set; }
         public int Tipo_Conta { get; set; }
+        public List<Playlist> playlists = new List<Playlist>();
 
         public string musicas_Path; //c:\
         public void Criar_Playlist(string nome)
@@ -28,7 +29,7 @@ namespace Lets_Musics
         }
         public void Mudar_Senha(string nova_Senha)
         {
-
+            this.Senha = nova_Senha;
         }
         public void Participar_Torneio(string codigo_Torneio)
         {

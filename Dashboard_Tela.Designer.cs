@@ -28,12 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.LabelNomeConta = new System.Windows.Forms.Label();
+            this.BtnTorneios = new System.Windows.Forms.Button();
+            this.BtnMusics = new System.Windows.Forms.Button();
+            this.BtnConfig = new System.Windows.Forms.Button();
+            this.BtnBanda = new System.Windows.Forms.Button();
+            this.BtnLogout = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // LabelNomeConta
+            // 
+            this.LabelNomeConta.Location = new System.Drawing.Point(455, 10);
+            this.LabelNomeConta.Name = "LabelNomeConta";
+            this.LabelNomeConta.Size = new System.Drawing.Size(100, 25);
+            this.LabelNomeConta.TabIndex = 0;
+            this.LabelNomeConta.Text = "NomeConta";
+            this.LabelNomeConta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BtnTorneios
+            // 
+            this.BtnTorneios.Location = new System.Drawing.Point(220, 255);
+            this.BtnTorneios.Name = "BtnTorneios";
+            this.BtnTorneios.Size = new System.Drawing.Size(135, 65);
+            this.BtnTorneios.TabIndex = 1;
+            this.BtnTorneios.Text = "Torneios";
+            this.BtnTorneios.UseVisualStyleBackColor = true;
+            // 
+            // BtnMusics
+            // 
+            this.BtnMusics.Location = new System.Drawing.Point(220, 115);
+            this.BtnMusics.Name = "BtnMusics";
+            this.BtnMusics.Size = new System.Drawing.Size(135, 65);
+            this.BtnMusics.TabIndex = 2;
+            this.BtnMusics.Text = "Musicas/Playslists";
+            this.BtnMusics.UseVisualStyleBackColor = true;
+            // 
+            // BtnConfig
+            // 
+            this.BtnConfig.Location = new System.Drawing.Point(455, 40);
+            this.BtnConfig.Name = "BtnConfig";
+            this.BtnConfig.Size = new System.Drawing.Size(100, 25);
+            this.BtnConfig.TabIndex = 3;
+            this.BtnConfig.Text = "Configurar Conta";
+            this.BtnConfig.UseVisualStyleBackColor = true;
+            // 
+            // BtnBanda
+            // 
+            this.BtnBanda.Location = new System.Drawing.Point(220, 185);
+            this.BtnBanda.Name = "BtnBanda";
+            this.BtnBanda.Size = new System.Drawing.Size(135, 65);
+            this.BtnBanda.TabIndex = 4;
+            this.BtnBanda.Text = "Banda";
+            this.BtnBanda.UseVisualStyleBackColor = true;
+            // 
+            // BtnLogout
+            // 
+            this.BtnLogout.Location = new System.Drawing.Point(455, 70);
+            this.BtnLogout.Name = "BtnLogout";
+            this.BtnLogout.Size = new System.Drawing.Size(100, 25);
+            this.BtnLogout.TabIndex = 5;
+            this.BtnLogout.Text = "Deslogar";
+            this.BtnLogout.UseVisualStyleBackColor = true;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
+            // 
+            // Dashboard_Tela
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(569, 376);
+            this.Controls.Add(this.BtnLogout);
+            this.Controls.Add(this.BtnBanda);
+            this.Controls.Add(this.BtnConfig);
+            this.Controls.Add(this.BtnMusics);
+            this.Controls.Add(this.BtnTorneios);
+            this.Controls.Add(this.LabelNomeConta);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Dashboard_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard_Tela";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dashboard_Tela_FormClosing);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label LabelNomeConta;
+        private System.Windows.Forms.Button BtnTorneios;
+        private System.Windows.Forms.Button BtnMusics;
+        private System.Windows.Forms.Button BtnConfig;
+        private System.Windows.Forms.Button BtnBanda;
+        private System.Windows.Forms.Button BtnLogout;
     }
 }

@@ -12,6 +12,7 @@ namespace Lets_Musics
     class ControladorContas
     {
         public static List<Conta> ListaGeralContas = new List<Conta>();
+        public static Conta Atual;
 		string nome, senha, email;
     	int tipo;
     	bool pBanda;
@@ -19,6 +20,14 @@ namespace Lets_Musics
         public List<Conta> GetContas()
         {
             return ListaGeralContas;
+        }
+        public Conta getAtual()
+        {
+            return Atual;
+        }
+        public void setAtual(Conta c)
+        {
+            Atual = c;
         }
         public void AtualizarContas()
         {

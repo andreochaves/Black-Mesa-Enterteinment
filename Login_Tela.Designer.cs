@@ -34,51 +34,50 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnReg = new System.Windows.Forms.Button();
-            this.testBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // txtSenha
             // 
             this.txtSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtSenha.Location = new System.Drawing.Point(407, 224);
+            this.txtSenha.Location = new System.Drawing.Point(200, 145);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
-            this.txtSenha.Size = new System.Drawing.Size(116, 20);
+            this.txtSenha.Size = new System.Drawing.Size(115, 20);
             this.txtSenha.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(313, 224);
+            this.label2.Location = new System.Drawing.Point(80, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(115, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Senha";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtEmail
             // 
             this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtEmail.Location = new System.Drawing.Point(407, 188);
+            this.txtEmail.Location = new System.Drawing.Point(200, 110);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(116, 20);
+            this.txtEmail.Size = new System.Drawing.Size(115, 20);
             this.txtEmail.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(313, 188);
+            this.label1.Location = new System.Drawing.Point(80, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(115, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Email";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(491, 287);
+            this.btnLogin.Location = new System.Drawing.Point(200, 225);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(116, 39);
+            this.btnLogin.Size = new System.Drawing.Size(115, 40);
             this.btnLogin.TabIndex = 9;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -86,35 +85,28 @@
             // 
             // btnReg
             // 
-            this.btnReg.Location = new System.Drawing.Point(271, 287);
+            this.btnReg.Location = new System.Drawing.Point(80, 225);
             this.btnReg.Name = "btnReg";
-            this.btnReg.Size = new System.Drawing.Size(116, 39);
+            this.btnReg.Size = new System.Drawing.Size(115, 40);
             this.btnReg.TabIndex = 10;
             this.btnReg.Text = "Cadastre-se";
             this.btnReg.UseVisualStyleBackColor = true;
             this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
             // 
-            // testBox
-            // 
-            this.testBox.Location = new System.Drawing.Point(75, 163);
-            this.testBox.Name = "testBox";
-            this.testBox.Size = new System.Drawing.Size(89, 92);
-            this.testBox.TabIndex = 11;
-            this.testBox.Text = "";
-            // 
             // Login_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.testBox);
+            this.ClientSize = new System.Drawing.Size(384, 311);
             this.Controls.Add(this.btnReg);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Login_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Tela";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -129,6 +121,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnReg;
-        private System.Windows.Forms.RichTextBox testBox;
     }
 }
