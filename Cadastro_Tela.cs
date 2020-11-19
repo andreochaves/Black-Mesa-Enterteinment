@@ -65,6 +65,7 @@ namespace Lets_Musics
                 File.WriteAllText("../../Contas.txt", contas_File);
                 MessageBox.Show("Cadastrado");
                 this.Close();
+                Program.tela_login = new Login_Tela();
                 Program.tela_login.Show();
             }
             else

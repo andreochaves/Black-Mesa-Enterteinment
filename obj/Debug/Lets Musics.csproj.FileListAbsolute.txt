@@ -56,3 +56,15 @@ C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.cs
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CopyComplete
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.exe
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.pdb
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Id3Lib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Mp3Lib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Id3Lib.pdb
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Mp3Lib.pdb
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\Interop.WMPLib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Interop.WMPLib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.ResolveComReference.cache
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Dashboard_Tela.resources
+C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CopyComplete

@@ -56,11 +56,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banda_Tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banda_Tela.Designer.cs">
+      <DependentUpon>Banda_Tela.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro_Tela.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastro_Tela.Designer.cs">
       <DependentUpon>Cadastro_Tela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config_Tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config_Tela.Designer.cs">
+      <DependentUpon>Config_Tela.cs</DependentUpon>
     </Compile>
     <Compile Include="Conta.cs" />
     <Compile Include="ContaNormal.cs" />
@@ -90,8 +102,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Torneio_Tela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Torneio_Tela.Designer.cs">
+      <DependentUpon>Torneio_Tela.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Banda_Tela.resx">
+      <DependentUpon>Banda_Tela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro_Tela.resx">
       <DependentUpon>Cadastro_Tela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config_Tela.resx">
+      <DependentUpon>Config_Tela.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard_Tela.resx">
       <DependentUpon>Dashboard_Tela.cs</DependentUpon>
@@ -111,6 +135,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Torneio_Tela.resx">
+      <DependentUpon>Torneio_Tela.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
