@@ -37,25 +37,28 @@
             this.btnProc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // btnMSenha
             // 
-            this.btnMSenha.Location = new System.Drawing.Point(33, 22);
+            this.btnMSenha.Location = new System.Drawing.Point(322, 22);
             this.btnMSenha.Name = "btnMSenha";
             this.btnMSenha.Size = new System.Drawing.Size(66, 63);
             this.btnMSenha.TabIndex = 0;
             this.btnMSenha.Text = "Mudar Senha";
             this.btnMSenha.UseVisualStyleBackColor = true;
+            this.btnMSenha.Click += new System.EventHandler(this.btnMSenha_Click);
             // 
             // btnEscolha
             // 
-            this.btnEscolha.Location = new System.Drawing.Point(33, 143);
+            this.btnEscolha.Location = new System.Drawing.Point(226, 183);
             this.btnEscolha.Name = "btnEscolha";
             this.btnEscolha.Size = new System.Drawing.Size(66, 47);
             this.btnEscolha.TabIndex = 1;
             this.btnEscolha.Text = "Escolher Pasta";
             this.btnEscolha.UseVisualStyleBackColor = true;
+            this.btnEscolha.Click += new System.EventHandler(this.btnEscolha_Click);
             // 
             // btnVoltar
             // 
@@ -65,6 +68,7 @@
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // txtSAtual
             // 
@@ -95,6 +99,7 @@
             this.btnProc.TabIndex = 10;
             this.btnProc.Text = "Procurar";
             this.btnProc.UseVisualStyleBackColor = true;
+            this.btnProc.Click += new System.EventHandler(this.btnProc_Click);
             // 
             // label1
             // 
@@ -129,6 +134,7 @@
             this.Controls.Add(this.btnEscolha);
             this.Controls.Add(this.btnMSenha);
             this.Name = "Config_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Config_Tela";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,5 +152,6 @@
         private System.Windows.Forms.Button btnProc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

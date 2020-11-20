@@ -1,8 +1,0 @@
-{
-	Nome:string,
-	Musicas:[Musica],
-	Autor: Conta,
-	Duracao: int,
-	Generos:[Genero],
-	Subgeneros:[Nsei]
-}

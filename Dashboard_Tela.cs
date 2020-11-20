@@ -34,5 +34,12 @@ namespace Lets_Musics
             this.Close();
             Program.tela_login.Show();
         }
+
+        private void BtnConfig_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Config_Tela cTela = new Config_Tela();
+            cTela.Show();
+        }
     }
 }

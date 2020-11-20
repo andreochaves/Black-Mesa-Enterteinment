@@ -16,12 +16,22 @@ namespace Lets_Musics
         public string Email { get; set; }
         public bool PossuiBanda { get; set; }
         public int Tipo_Conta { get; set; }
+        public string playlistscodes { get; set; }
         public List<Playlist> playlists = new List<Playlist>();
 
-        public string musicas_Path; //c:\
+        public string musicas_Path;
         public void Criar_Playlist(string nome)
         {
 
+        }
+        public string GetPlaylistsNomes()
+        {
+            string r = "";
+            foreach(Playlist p in playlists)
+            {
+                r += p.Id+";";
+            }
+            return r;
         }
         public void Adicionar_Amigo(string codigo)
         {
