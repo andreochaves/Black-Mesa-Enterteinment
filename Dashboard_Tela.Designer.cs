@@ -71,6 +71,7 @@
             this.BtnConfig.TabIndex = 3;
             this.BtnConfig.Text = "Configurar Conta";
             this.BtnConfig.UseVisualStyleBackColor = true;
+            this.BtnConfig.Click += new System.EventHandler(this.BtnConfig_Click);
             // 
             // BtnBanda
             // 

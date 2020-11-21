@@ -8,6 +8,8 @@ namespace Lets_Musics
 {
     class Playlist
     {
+        public static int IdGeral = 0;
+        public int Id { get; }
         public List<Musica> Musicas = new List<Musica>();
         public int [] ordemTemp;
         public int[] ordemNormal;
@@ -22,7 +24,12 @@ namespace Lets_Musics
         //subgenero
 
         public string Nome { get; set; }
-
+        public Playlist(string n, Musica m)
+        {
+            Id = ++IdGeral;
+            Nome = n;
+            Musicas.Add(m);
+        }
         public void Adicionar_Musica(Musica m)
         {
             Musicas.Add(m);

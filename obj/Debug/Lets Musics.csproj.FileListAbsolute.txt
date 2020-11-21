@@ -68,3 +68,7 @@ C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\AxI
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.ResolveComReference.cache
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Dashboard_Tela.resources
 C:\Users\CHAVES\Source\Repos\andreochaves\Black-Mesa-Enterteinment\obj\Debug\Lets Musics.csproj.CopyComplete
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Banda_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Config_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Dashboard_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Torneio_Tela.resources

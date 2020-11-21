@@ -1,9 +1,0 @@
-{
-	Nome:string,
-	Senha:string,
-	Amigos:[string],
-	Possui_Banda:boolean
-	Codigo:string,
-	Playlists: [Playlist],
-	Tipo:['P','N']
-}

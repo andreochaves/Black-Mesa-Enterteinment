@@ -13,9 +13,7 @@ namespace Lets_Musics
     {
         public static List<Conta> ListaGeralContas = new List<Conta>();
         public static Conta Atual;
-		string nome, senha, email;
-    	int tipo;
-    	bool pBanda;
+		
         public ControladorContas(){}
         public List<Conta> GetContas()
         {
@@ -43,8 +41,12 @@ namespace Lets_Musics
         {
         	string contas_File = File.ReadAllText("../../Contas.txt");
             string[] load_contas = contas_File.Split('}');
-        	
-        	foreach (string k in load_contas)
+
+            string nome ="", senha="", email="",musicapath="",playlists="";
+            int tipo = 0;
+            bool pBanda = false;
+
+            foreach (string k in load_contas)
             {
                 
                 int count = 0;
@@ -68,20 +70,26 @@ namespace Lets_Musics
                         case 5:
                             pBanda = bool.Parse(j.Split(':')[1]);
                             break;
+                        case 6:
+                            musicapath = j.Split(':')[1];
+                            break;
+                        case 7:
+                            playlists = j.Split(':')[1];
+                            break;
                         
                     }
                     count++;
                 }
                 if (tipo == 0)
                 {
-                    ListaGeralContas.Add(new ContaNormal(nome, senha, email));
+                    ListaGeralContas.Add(new ContaNormal(nome, senha, email,musicapath));
                 }
                 else
                 {
-                    ListaGeralContas.Add(new ContaPremium(nome, senha, email));
+                    ListaGeralContas.Add(new ContaPremium(nome, senha, email, musicapath));
                 }
                 ListaGeralContas.Last().PossuiBanda = pBanda;
-                
+                ListaGeralContas.Last().playlistscodes = playlists;
             }
         }
     }
