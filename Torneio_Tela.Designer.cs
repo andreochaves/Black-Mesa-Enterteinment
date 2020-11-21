@@ -58,6 +58,7 @@
             this.btnVoltar.TabIndex = 4;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // Torneio_Tela
             // 
@@ -67,7 +68,9 @@
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnPart);
             this.Controls.Add(this.lbTorneio);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Torneio_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Torneio_Tela";
             this.ResumeLayout(false);
 

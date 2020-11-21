@@ -72,3 +72,4 @@ C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Banda_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Config_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Dashboard_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Torneio_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.AddFriente_Tela.resources

@@ -50,6 +50,7 @@
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDel
             // 
@@ -59,6 +60,7 @@
             this.btnDel.TabIndex = 2;
             this.btnDel.Text = "Delete";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnVoltar
             // 
@@ -68,6 +70,7 @@
             this.btnVoltar.TabIndex = 3;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // Banda_Tela
             // 
@@ -78,7 +81,9 @@
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lbBanda);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Banda_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banda_Tela";
             this.ResumeLayout(false);
 

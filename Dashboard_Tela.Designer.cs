@@ -34,6 +34,7 @@
             this.BtnConfig = new System.Windows.Forms.Button();
             this.BtnBanda = new System.Windows.Forms.Button();
             this.BtnLogout = new System.Windows.Forms.Button();
+            this.LabelCodigo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LabelNomeConta
@@ -53,6 +54,7 @@
             this.BtnTorneios.TabIndex = 1;
             this.BtnTorneios.Text = "Torneios";
             this.BtnTorneios.UseVisualStyleBackColor = true;
+            this.BtnTorneios.Click += new System.EventHandler(this.BtnTorneios_Click);
             // 
             // BtnMusics
             // 
@@ -62,10 +64,11 @@
             this.BtnMusics.TabIndex = 2;
             this.BtnMusics.Text = "Musicas/Playslists";
             this.BtnMusics.UseVisualStyleBackColor = true;
+            this.BtnMusics.Click += new System.EventHandler(this.BtnMusics_Click);
             // 
             // BtnConfig
             // 
-            this.BtnConfig.Location = new System.Drawing.Point(455, 40);
+            this.BtnConfig.Location = new System.Drawing.Point(455, 70);
             this.BtnConfig.Name = "BtnConfig";
             this.BtnConfig.Size = new System.Drawing.Size(100, 25);
             this.BtnConfig.TabIndex = 3;
@@ -81,10 +84,11 @@
             this.BtnBanda.TabIndex = 4;
             this.BtnBanda.Text = "Banda";
             this.BtnBanda.UseVisualStyleBackColor = true;
+            this.BtnBanda.Click += new System.EventHandler(this.BtnBanda_Click);
             // 
             // BtnLogout
             // 
-            this.BtnLogout.Location = new System.Drawing.Point(455, 70);
+            this.BtnLogout.Location = new System.Drawing.Point(455, 100);
             this.BtnLogout.Name = "BtnLogout";
             this.BtnLogout.Size = new System.Drawing.Size(100, 25);
             this.BtnLogout.TabIndex = 5;
@@ -92,11 +96,21 @@
             this.BtnLogout.UseVisualStyleBackColor = true;
             this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
+            // LabelCodigo
+            // 
+            this.LabelCodigo.Location = new System.Drawing.Point(455, 40);
+            this.LabelCodigo.Name = "LabelCodigo";
+            this.LabelCodigo.Size = new System.Drawing.Size(100, 25);
+            this.LabelCodigo.TabIndex = 6;
+            this.LabelCodigo.Text = "Codigo";
+            this.LabelCodigo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Dashboard_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 376);
+            this.Controls.Add(this.LabelCodigo);
             this.Controls.Add(this.BtnLogout);
             this.Controls.Add(this.BtnBanda);
             this.Controls.Add(this.BtnConfig);
@@ -120,5 +134,6 @@
         private System.Windows.Forms.Button BtnConfig;
         private System.Windows.Forms.Button BtnBanda;
         private System.Windows.Forms.Button BtnLogout;
+        private System.Windows.Forms.Label LabelCodigo;
     }
 }

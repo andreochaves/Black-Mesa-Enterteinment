@@ -17,6 +17,7 @@ namespace Lets_Musics
         {
             InitializeComponent();
             this.LabelNomeConta.Text = cc.getAtual().Nome;
+            this.LabelCodigo.Text = Convert.ToString(cc.getAtual().Codigo);
         }
 
         private void Dashboard_Tela_FormClosing(object sender, FormClosingEventArgs e)
@@ -40,6 +41,27 @@ namespace Lets_Musics
             this.Close();
             Config_Tela cTela = new Config_Tela();
             cTela.Show();
+        }
+
+        private void BtnBanda_Click(object sender, EventArgs e)
+        {
+            Banda_Tela bTela = new Banda_Tela();
+            bTela.Show();
+            this.Close();
+        }
+
+        private void BtnTorneios_Click(object sender, EventArgs e)
+        {
+            Torneio_Tela tTela = new Torneio_Tela();
+            tTela.Show();
+            this.Close();
+        }
+
+        private void BtnMusics_Click(object sender, EventArgs e)
+        {
+            Playlist_Tela pTela = new Playlist_Tela();
+            this.Close();
+            pTela.Show();
         }
     }
 }

@@ -133,6 +133,7 @@
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnEscolha);
             this.Controls.Add(this.btnMSenha);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Config_Tela";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Config_Tela";

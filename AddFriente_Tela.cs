@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace Lets_Musics
 {
-    public partial class Torneio_Tela : Form
+    public partial class AddFriente_Tela : Form
     {
-        public Torneio_Tela()
+        public AddFriente_Tela()
         {
             InitializeComponent();
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void txtFriendCode_TextChanged(object sender, EventArgs e)
         {
-            Dashboard_Tela dTela = new Dashboard_Tela();
-            this.Close();
-            dTela.Show();
+
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            DialogResult  = DialogResult.OK;
         }
     }
 }

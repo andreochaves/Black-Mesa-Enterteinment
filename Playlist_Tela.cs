@@ -44,5 +44,12 @@ namespace Lets_Musics
                 Program.tela_login.Close();
             }
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Dashboard_Tela dTela = new Dashboard_Tela();
+            this.Close();
+            dTela.Show();
+        }
     }
 }

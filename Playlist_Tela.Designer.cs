@@ -40,7 +40,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,21 +147,22 @@
             this.listBox1.TabIndex = 18;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             // 
-            // button7
+            // btnVoltar
             // 
-            this.button7.Location = new System.Drawing.Point(12, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Voltar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnVoltar.Location = new System.Drawing.Point(12, 12);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnVoltar.TabIndex = 19;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // Playlist_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(649, 406);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.mPlayer);
             this.Controls.Add(this.BtnAdd);
@@ -176,6 +177,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Playlist_Tela";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Playlist";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Playlist_Tela_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.mPlayer)).EndInit();
@@ -196,6 +198,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private AxWMPLib.AxWindowsMediaPlayer mPlayer;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
