@@ -47,6 +47,16 @@ namespace Lets_Musics
         {
 
         }
+
+        public void Proxima_Musica(Musica m, int p)
+        {
+
+        }
+
+        public void Anterior_Musica(Musica m, int p)
+        {
+
+        }
        
     }
 
