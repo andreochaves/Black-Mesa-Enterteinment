@@ -10,7 +10,6 @@ namespace Lets_Musics
     {
         public ContaPremium(string nome, string senha, string email, string musicaspath)
         {
-            this.Codigo = ++Codigo_Geral;
             this.Nome = nome;
             this.Senha = senha;
             this.Email = email;

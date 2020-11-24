@@ -114,6 +114,7 @@
             this.btnAmigos.TabIndex = 7;
             this.btnAmigos.Text = "Amigos";
             this.btnAmigos.UseVisualStyleBackColor = true;
+            this.btnAmigos.Click += new System.EventHandler(this.btnAmigos_Click);
             // 
             // Dashboard_Tela
             // 

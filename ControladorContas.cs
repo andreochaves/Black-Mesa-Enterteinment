@@ -13,11 +13,18 @@ namespace Lets_Musics
     {
         public static List<Conta> ListaGeralContas = new List<Conta>();
         public static Conta Atual;
-		
+        public static int CodigoGeral;
         public ControladorContas(){}
         public List<Conta> GetContas()
         {
             return ListaGeralContas;
+        }
+        public int GetAddGeral()
+        {
+            int aux = CodigoGeral;
+            CodigoGeral++;
+            return aux;
+            
         }
         public Conta getAtual()
         {
@@ -60,6 +67,7 @@ namespace Lets_Musics
         public void LimparContas()
         {
         	ListaGeralContas = null;
+            CodigoGeral = 0;
         }
         public void CarregarContas()
         {
@@ -112,6 +120,7 @@ namespace Lets_Musics
                 {
                     ListaGeralContas.Add(new ContaPremium(nome, senha, email, musicapath));
                 }
+                ListaGeralContas.Last().Codigo = ++CodigoGeral;
                 ListaGeralContas.Last().PossuiBanda = pBanda;
                 ListaGeralContas.Last().playlistscodes = playlists;
             }

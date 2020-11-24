@@ -72,7 +72,6 @@ C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Banda_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Config_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Dashboard_Tela.resources
 C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Torneio_Tela.resources
-C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.AddFriente_Tela.resources
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.AddFriend_Tela.resources
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.AdicionarMusica_Tela.resources
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Amigos_Tela.resources
@@ -80,3 +79,6 @@ C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Ba
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Config_Tela.resources
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Dashboard_Tela.resources
 C:\Users\Thamyris\Source\Repos\Black-Mesa-Enterteinment\obj\Debug\Lets_Musics.Torneio_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.AddFriend_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.AdicionarMusica_Tela.resources
+C:\IDEs\VS\Lets Musics\obj\Debug\Lets_Musics.Amigos_Tela.resources

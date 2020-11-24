@@ -57,7 +57,9 @@ namespace Lets_Musics
             if (!x)
             {
                 controlador.GetContas().Add(new ContaNormal(nome, senha, email, path));
+                controlador.GetContas().Last().Codigo = controlador.GetAddGeral();
                 Conta ct = controlador.GetContas().Last();
+
                 contas_File += "}" + '\n' + "Codigo:" + ct.Codigo + ",\n" + "TipoConta:" + ct.Tipo_Conta + ",\n" + "Nome:" + ct.Nome + ",\n" + "Senha:" + ct.Senha + ",\n" + "Email:" + ct.Email + ",\n" + "Possui_Banda:" + ct.PossuiBanda + ",\n"+"MusicasPath:"+ct.musicas_Path+",\n"+"Playlists:"+ct.playlistscodes+"\n";
                 File.WriteAllText("../../Contas.txt", contas_File);
                 MessageBox.Show("Cadastrado");

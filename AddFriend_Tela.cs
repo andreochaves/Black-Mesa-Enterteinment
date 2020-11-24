@@ -12,6 +12,7 @@ namespace Lets_Musics
 {
     public partial class AddFriend_Tela : Form
     {
+        ControladorContas cc = new ControladorContas();
         public AddFriend_Tela()
         {
             InitializeComponent();
@@ -24,7 +25,37 @@ namespace Lets_Musics
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            DialogResult  = DialogResult.OK;
+            string error = null;
+            foreach(Conta c in cc.GetContas())
+            {
+                if(c.Codigo.ToString() == txtFriendCode.Text)
+                {
+                    if (cc.getAtual().Codigo.ToString() == txtFriendCode.Text)
+                    {
+                        error += "1";
+                    }
+                    else
+                    {
+                        error += "0";
+                    }
+                }
+                else
+                {
+                    error += "1";
+                }
+            }
+            bool er = error.Contains("0");
+            switch (er)
+            {
+                case true:
+                    DialogResult = DialogResult.OK;
+                    break;
+                case false:
+                    MessageBox.Show("Não é possivel adicionar este Codigo");
+                    DialogResult = DialogResult.Cancel;
+                    break;
+            }
+            
         }
 
         private void btnSair_Click(object sender, EventArgs e)
