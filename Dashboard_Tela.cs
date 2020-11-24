@@ -63,5 +63,15 @@ namespace Lets_Musics
             this.Close();
             pTela.Show();
         }
+        public void ShowMyDialogBox()
+        {
+            AddFriend_Tela testDialog = new AddFriend_Tela();
+            string textResult = null;
+            if (testDialog.ShowDialog(this) == DialogResult.OK)
+            {
+                textResult = testDialog.txtFriendCode.Text;
+            }
+            testDialog.Dispose();
+        }
     }
 }

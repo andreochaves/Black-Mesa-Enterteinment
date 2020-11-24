@@ -41,6 +41,7 @@
             this.mPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnTrocarPlay = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,7 +133,7 @@
             // mPlayer
             // 
             this.mPlayer.Enabled = true;
-            this.mPlayer.Location = new System.Drawing.Point(12, 350);
+            this.mPlayer.Location = new System.Drawing.Point(12, 264);
             this.mPlayer.Name = "mPlayer";
             this.mPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mPlayer.OcxState")));
             this.mPlayer.Size = new System.Drawing.Size(624, 44);
@@ -157,11 +158,22 @@
             this.btnVoltar.UseVisualStyleBackColor = true;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
+            // btnTrocarPlay
+            // 
+            this.btnTrocarPlay.Location = new System.Drawing.Point(12, 205);
+            this.btnTrocarPlay.Name = "btnTrocarPlay";
+            this.btnTrocarPlay.Size = new System.Drawing.Size(85, 23);
+            this.btnTrocarPlay.TabIndex = 20;
+            this.btnTrocarPlay.Text = "Trocar PlayList";
+            this.btnTrocarPlay.UseVisualStyleBackColor = true;
+            this.btnTrocarPlay.Click += new System.EventHandler(this.btnTrocarPlay_Click);
+            // 
             // Playlist_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(649, 406);
+            this.ClientSize = new System.Drawing.Size(649, 318);
+            this.Controls.Add(this.btnTrocarPlay);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.mPlayer);
@@ -199,5 +211,6 @@
         private AxWMPLib.AxWindowsMediaPlayer mPlayer;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.Button btnTrocarPlay;
     }
 }

@@ -27,6 +27,30 @@ namespace Lets_Musics
         {
             Atual = c;
         }
+        public void Add_DelAmigo(int c,string t)
+        {
+            Conta aux = null;
+            foreach(Conta k in ListaGeralContas)
+            {
+                if (k.Codigo == c)
+                {
+                    aux = k;
+                    if(t == "Add")
+                    {
+                        Atual += aux;
+                    }
+                    else
+                    {
+                        Atual -= aux;
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Codigo de Amigo não Existente");
+                }
+            }
+        }
         public void AtualizarContas()
         {
         	LimparContas();
@@ -91,6 +115,28 @@ namespace Lets_Musics
                 ListaGeralContas.Last().PossuiBanda = pBanda;
                 ListaGeralContas.Last().playlistscodes = playlists;
             }
+        }
+        public void Add_DelMusicaP(string pn, Musica m, string t)
+        {
+            int aux = 0;
+            foreach(Playlist p in Atual.playlists)
+            {
+                aux += 1;
+                if(p.Nome == pn)
+                {
+                    if(t == "Add")
+                    {
+                        Atual.playlists[aux] += m;
+                    }
+                    else
+                    {
+                        Atual.playlists[aux] -= m;
+                    }
+                    
+                }
+                aux += 1;
+            }
+
         }
     }
     

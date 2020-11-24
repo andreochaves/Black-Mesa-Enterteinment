@@ -168,7 +168,6 @@
             this.Name = "Cadastro_Tela";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro_Tela";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Cadastro_Tela_FormClosing);
             this.Load += new System.EventHandler(this.Cadastro_Tela_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

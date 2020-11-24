@@ -18,11 +18,13 @@ namespace Lets_Musics
         public int Tipo_Conta { get; set; }
         public string playlistscodes { get; set; }
         public List<Playlist> playlists = new List<Playlist>();
+        public List<Conta> amigos = new List<Conta>();
 
         public string musicas_Path;
+
         public void Criar_Playlist(string nome)
         {
-
+            playlists.Add(new Playlist(nome));
         }
         public string GetPlaylistsNomes()
         {
@@ -33,9 +35,22 @@ namespace Lets_Musics
             }
             return r;
         }
-        public void Adicionar_Amigo(string codigo)
+        public void Adicionar_Amigo(Conta m)
         {
-
+            amigos.Add(m);
+        }
+        public void Excluir_Amigo(Conta m)
+        {
+            amigos.Remove(m);
+        }
+        public string GetAmigosNomes()
+        {
+            string r = "";
+            foreach (Conta c in amigos)
+            {
+                r += c.Nome + ";";
+            }
+            return r;
         }
         public void Mudar_Senha(string nova_Senha)
         {
@@ -43,11 +58,19 @@ namespace Lets_Musics
         }
         public void Participar_Torneio(string codigo_Torneio)
         {
-
+            //Não ia dar Tempo.
         }
-        public void Upload_Musica(string musica_path)
+        public static Conta operator+(Conta a, Conta b)
         {
-
+            Conta c = a;
+            c.Adicionar_Amigo(b);
+            return c;
+        }
+        public static Conta operator-(Conta a, Conta b)
+        {
+            Conta c = a;
+            c.Excluir_Amigo(b);
+            return c;
         }
     }
 }

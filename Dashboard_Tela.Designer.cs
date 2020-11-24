@@ -35,6 +35,7 @@
             this.BtnBanda = new System.Windows.Forms.Button();
             this.BtnLogout = new System.Windows.Forms.Button();
             this.LabelCodigo = new System.Windows.Forms.Label();
+            this.btnAmigos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LabelNomeConta
@@ -68,7 +69,7 @@
             // 
             // BtnConfig
             // 
-            this.BtnConfig.Location = new System.Drawing.Point(455, 70);
+            this.BtnConfig.Location = new System.Drawing.Point(455, 115);
             this.BtnConfig.Name = "BtnConfig";
             this.BtnConfig.Size = new System.Drawing.Size(100, 25);
             this.BtnConfig.TabIndex = 3;
@@ -88,7 +89,7 @@
             // 
             // BtnLogout
             // 
-            this.BtnLogout.Location = new System.Drawing.Point(455, 100);
+            this.BtnLogout.Location = new System.Drawing.Point(455, 145);
             this.BtnLogout.Name = "BtnLogout";
             this.BtnLogout.Size = new System.Drawing.Size(100, 25);
             this.BtnLogout.TabIndex = 5;
@@ -105,11 +106,21 @@
             this.LabelCodigo.Text = "Codigo";
             this.LabelCodigo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAmigos
+            // 
+            this.btnAmigos.Location = new System.Drawing.Point(455, 86);
+            this.btnAmigos.Name = "btnAmigos";
+            this.btnAmigos.Size = new System.Drawing.Size(100, 23);
+            this.btnAmigos.TabIndex = 7;
+            this.btnAmigos.Text = "Amigos";
+            this.btnAmigos.UseVisualStyleBackColor = true;
+            // 
             // Dashboard_Tela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 376);
+            this.Controls.Add(this.btnAmigos);
             this.Controls.Add(this.LabelCodigo);
             this.Controls.Add(this.BtnLogout);
             this.Controls.Add(this.BtnBanda);
@@ -135,5 +146,6 @@
         private System.Windows.Forms.Button BtnBanda;
         private System.Windows.Forms.Button BtnLogout;
         private System.Windows.Forms.Label LabelCodigo;
+        private System.Windows.Forms.Button btnAmigos;
     }
 }

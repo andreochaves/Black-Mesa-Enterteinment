@@ -29,19 +29,19 @@ namespace Lets_Musics
         private void btnAdd_Click(object sender, EventArgs e)
         {
             ShowMyDialogBox();
-            lbBanda.Items.Add(textResult);
+            if (textResult != null)
+            {
+                lbBanda.Items.Add(textResult);
+                this.textResult = null;
+            }
         }
         public void ShowMyDialogBox()
         {
-            AddFriente_Tela testDialog = new AddFriente_Tela();
+            AddFriend_Tela testDialog = new AddFriend_Tela();
 
             if (testDialog.ShowDialog(this) == DialogResult.OK)
             {
                 this.textResult = testDialog.txtFriendCode.Text;
-            }
-            else
-            {
-                this.textResult = "Cancelled";
             }
             testDialog.Dispose();
         }

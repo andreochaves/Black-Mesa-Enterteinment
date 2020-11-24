@@ -23,6 +23,7 @@ namespace Lets_Musics
         {
 
         }
+
         private void PlayFile(String url)
         {
             Player = new WMPLib.WindowsMediaPlayer();
@@ -50,6 +51,11 @@ namespace Lets_Musics
             Dashboard_Tela dTela = new Dashboard_Tela();
             this.Close();
             dTela.Show();
+        }
+
+        private void btnTrocarPlay_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

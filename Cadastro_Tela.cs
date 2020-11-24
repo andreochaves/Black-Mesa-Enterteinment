@@ -27,16 +27,6 @@ namespace Lets_Musics
             
         }
 
-        private void Cadastro_Tela_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (e.CloseReason == CloseReason.WindowsShutDown) return;
-
-            if (this.DialogResult == DialogResult.Cancel)
-            {
-                 Program.tela_login.Close();
-            }
-        }
-
         private void btnPath_Click(object sender, EventArgs e)
         {
             folderBrowserDialog1.ShowDialog();

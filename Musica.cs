@@ -21,6 +21,7 @@ namespace Lets_Musics
 
         public Musica(string p) 
         {
+            Path = p;
             file = new Mp3Lib.Mp3File(p);
             Nome = file.TagHandler.Title;
             Artista = file.TagHandler.Artist;

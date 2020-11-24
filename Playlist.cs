@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Lets_Musics
 {
@@ -24,11 +26,10 @@ namespace Lets_Musics
         //subgenero
 
         public string Nome { get; set; }
-        public Playlist(string n, Musica m)
+        public Playlist(string n)
         {
             Id = ++IdGeral;
             Nome = n;
-            Musicas.Add(m);
         }
         public void Adicionar_Musica(Musica m)
         {
@@ -65,6 +66,18 @@ namespace Lets_Musics
 
         }
        
+        public static Playlist operator+(Playlist p, Musica m)
+        {
+            Playlist jota = p;
+            jota.Adicionar_Musica(m);
+            return jota;
+        }
+        public static Playlist operator-(Playlist p, Musica m)
+        {
+            Playlist jota = p;
+            jota.Excluir_Musica(m.Nome);
+            return jota;
+        }
     }
 
 
